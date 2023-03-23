@@ -45,6 +45,10 @@ h1 {
   line-height: 1.1;
 }
 
+span {
+  display: flex;
+}
+
 button {
   border-radius: 8px;
   border: 1px solid transparent;
@@ -55,6 +59,7 @@ button {
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
+  display: flex;
 }
 
 button:hover {
